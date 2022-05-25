@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './Sass/styles.scss'
+import Cabecalho from './components/Cabecalho';
+import Notificacoes from './components/Notificacoes';
+import Rodape from './components/Rodape';
+import Segmentos from './components/Segmentos';
+import Servicos from './components/Servicos';
+import Localizacao from './components/Localizacao';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cabecalho />
+      <Notificacoes />
+      <Localizacao />
+      <Servicos />
+      <Segmentos />
+      <Rodape />
     </div>
   );
 }

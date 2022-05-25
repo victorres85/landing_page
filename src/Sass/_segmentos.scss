@@ -1,0 +1,92 @@
+.segmentos {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    h2,
+    p {
+        font-family: $font-01;
+        text-align: center;
+        width: 60%;
+        align-self: center;
+    }
+
+    .seg_container {
+        margin-top: 100px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 300px 300px 300px;
+        margin-left: 100px;
+        grid-template-rows: auto;
+        column-gap: 150px;
+        row-gap: 100px;
+        grid-template-areas:
+            "a b c "
+            "d e f";
+    }
+
+
+    .seg-card {
+        position: relative;
+
+        h4 {
+            font-size: 24px;
+            text-align: left;
+
+        }
+
+        p {
+            font-size: 18px;
+            text-align: left;
+            color: #595959;
+            margin-left: 0px;
+            width: 90%;
+        }
+
+        #fintech,
+        #entretenimento,
+        #direto,
+        #commerce {
+            position: absolute;
+            left: -60px;
+            top: -55px;
+            border-bottom: 1px solid #000;
+            border-right: 1px solid #000;
+            padding-right: 5px;
+            padding-bottom: 15px;
+            padding-top: 25px;
+
+        }
+
+        #mobilidade {
+            position: absolute;
+            left: -60px;
+            top: -55px;
+            border-bottom: 1px solid #000;
+            border-right: 1px solid #000;
+            padding-right: 5px;
+            padding-bottom: 15px;
+            padding-top: 50px;
+
+        }
+
+
+        #hospitalidade {
+            position: absolute;
+            left: -60px;
+            top: -55px;
+            border-bottom: 1px solid #000;
+            border-right: 1px solid #000;
+            padding-right: 5px;
+            padding-bottom: 15px;
+            padding-top: 40px;
+
+        }
+
+
+
+    }
+}

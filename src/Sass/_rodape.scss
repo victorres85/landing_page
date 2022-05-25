@@ -1,0 +1,38 @@
+.rodape {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1A1A1A;
+    color: #fff;
+    justify-content: space-between;
+    position: relative;
+    height: 150px;
+
+
+    h1 {
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 20px;
+        font-size: 35px;
+
+        &::before,
+        &::after {
+            content: " - ";
+            color: blue;
+
+        }
+    }
+
+    p {
+        text-align: right;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 80%;
+        color: #fff;
+
+    }
+}

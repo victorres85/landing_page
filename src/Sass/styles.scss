@@ -1,0 +1,52 @@
+$font-01: 'Montserrat', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: $font-01;
+
+}
+
+h1 {
+    font-family: $font-01;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: $font-01;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: $font-01;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+p {
+    font-family: $font-01;
+    font-weight: 400;
+    font-size: 18px;
+    color: #595959;
+}
+
+li a {
+    font-family: $font-01;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+// #####    NOTIFICACOES    #####
+
+@import './cabecalho';
+@import './notificacoes';
+@import './localizacao';
+@import './servicos';
+@import './segmentos';
+@import './rodape';

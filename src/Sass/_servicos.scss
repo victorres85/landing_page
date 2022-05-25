@@ -1,0 +1,89 @@
+.servicos {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    .traco {
+        padding-top: 50px;
+        width: 300px;
+        height: 1px;
+        border-bottom: 2px solid #000;
+        margin: 20px;
+        align-self: center;
+
+
+    }
+
+    #id_serv {
+        margin-top: 50px;
+    }
+
+    .circulo2 {
+        position: absolute;
+        left: 80%;
+        top: 0px;
+        width: 280px;
+    }
+
+    h2,
+    p {
+        font-family: $font-01;
+        text-align: center;
+        width: 60%;
+        align-self: center;
+    }
+
+    .cards {
+        margin-top: 50px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 309px 309px 309px 309px;
+        grid-template-rows: auto;
+        column-gap: 5px;
+        grid-template-areas:
+            "a b c d";
+
+        .card {
+            text-align: left;
+            background-color: #0074FF;
+            color: #fff;
+            height: 448px;
+            width: 309px;
+            position: relative;
+
+            h1 {
+                position: absolute;
+                top: -20px;
+                left: 10px;
+                font-size: 144px;
+                color: rgba(26, 26, 26, 0.1);
+            }
+
+            h2 {
+                font-size: 36px;
+                margin-top: 105px;
+                margin-left: 46px;
+                text-align: left;
+                width: 90%;
+
+
+            }
+
+            p {
+                font-size: 18px;
+                margin-left: 22px;
+                margin-top: 80px;
+                margin-right: 15px;
+                color: #fff;
+                text-align: left;
+                width: 85%;
+            }
+
+
+        }
+    }
+}
